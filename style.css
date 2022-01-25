@@ -1,0 +1,16 @@
+/* -------------------Google Fonts-------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* ------------------Common Styles---------------------- */
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.primary-btn{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: rgb(128, 15, 235);
+    color: white;
+}
