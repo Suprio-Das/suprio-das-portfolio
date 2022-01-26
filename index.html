@@ -15,17 +15,17 @@
     <header class="mb-4">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-              <a class="navbar-brand text-decoration-underline fs-4 fw-bold" href="#">Dev.Suprio</a>
+              <a class="navbar-brand fw-bold fs-4 text-decoration-underline" href="#">Dev.Suprio</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item ms-5">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <li class="nav-item">
+                    <a class="nav-link active ms-5" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item ms-5">
-                    <a class="nav-link" href="#">Projects</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                   </li>
                   <li class="nav-item ms-5">
                     <a class="nav-link" href="#">Services</a>
@@ -34,8 +34,9 @@
                     <a class="nav-link" href="#">About</a>
                   </li>
                   <li class="nav-item ms-5">
-                    <a class="nav-link" href="#">Hire Me</a>
+                    <a class="nav-link" href="#">Hire me</a>
                   </li>
+                </ul>
               </div>
             </div>
           </nav>
@@ -43,7 +44,7 @@
     <main>
           <!-- Top Section -->
           <section class="container">
-            <div class="row d-flex align-items-center gy-3 p-3">
+            <div class="row d-flex align-items-center gy-3 p-lg-3 p-md-1" >
                 <div class="col-lg-5">
                     <div class="shadow-lg rounded p-2">
                         <img class="img-fluid" src="images/my img.jpg" alt="">
@@ -54,13 +55,13 @@
                     <h4 class="fw-bold">Jr. Web Developer and Desginer</h4>
                     <p class="fs-5 text-justify">I'm a junior developer. I am not professional but i can do like professional.I can satisfy my clients. I have a basic knowledge about UI and UX. For more information you can visit my "About" section or click the button below. </p>
                     <button class="primary-btn">
-                        Read more
+                       Read more <i class="fas fa-info-circle"></i> 
                     </button>
                 </div>
             </div>
         </section>
         <!-- Our Projects Section -->
-        <section class="container mt-5 mb-5">
+        <section class="container mt-5 mb-5" id="projects">
             <div class="text-center">
                 <h1 class="fw-bold display-4 text-center d-inline-block">Popular Projects
                     <hr>
@@ -126,5 +127,7 @@
             </div>
         </section> -->
     </main>
+    <!-- Js Bundle Relation -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
